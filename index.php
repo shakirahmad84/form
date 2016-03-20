@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="insert.php">
+    <form action="insert.php" method="post">
         <p>Add Your Comment:</p>
         <textarea name="comment" cols="30" rows="5"></textarea><br>
         <input type="submit" value="Submit">
