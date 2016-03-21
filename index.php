@@ -5,10 +5,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="insert.php" method="post">
-        <p>Add Your Comment:</p>
-        <textarea name="comment" cols="30" rows="5"></textarea><br>
-        <input type="submit" value="Submit">
+    <form action="db.php" method="post">
+        <input type="text" name="name">
+        <br>
+        <input type="submit" name="submit">
     </form>
 </body>
 </html>
